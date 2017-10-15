@@ -17,13 +17,13 @@ var scoreOfUser = 0;
 
 
 function begin () {
-	crystalOne = Math.floor(Math.random() * 20) + 1;
-	crystalTwo = Math.floor(Math.random() * 20) + 1;
-	crystalThree = Math.floor(Math.random() * 20) + 1;
-	crystalFour = Math.floor(Math.random() * 20) + 1;
-	crystalFive = Math.floor(Math.random() * 20) + 1;
+	crystalOne = Math.floor(Math.random() * 14) + 1;
+	crystalTwo = Math.floor(Math.random() * 14) + 1;
+	crystalThree = Math.floor(Math.random() * 14) + 1;
+	crystalFour = Math.floor(Math.random() * 14) + 1;
+	crystalFive = Math.floor(Math.random() * 14) + 1;
 
-	scoreToGuess = Math.floor(Math.random() * 9)+ 100;
+	scoreToGuess = Math.floor(Math.random() * 190)+ 14;
 	scoreOfUser = 0;
 	$("#userScore").text(scoreOfUser);
 	$("#numberToGuess").text(scoreToGuess);
